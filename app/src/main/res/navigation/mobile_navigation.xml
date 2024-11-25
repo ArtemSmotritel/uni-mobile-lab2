@@ -22,4 +22,10 @@
         android:name="com.example.smo_uni_mobile_lab2.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.smo_uni_mobile_lab2.ui.list.ListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list" />
 </navigation>
