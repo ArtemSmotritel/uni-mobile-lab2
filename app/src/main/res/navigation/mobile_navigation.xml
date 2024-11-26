@@ -28,4 +28,11 @@
         android:name="com.example.smo_uni_mobile_lab2.ui.list.ListFragment"
         android:label="@string/menu_list"
         tools:layout="@layout/fragment_list" />
+
+    <activity
+        android:id="@+id/nav_secondTabbedActivity"
+        android:name="com.example.smo_uni_mobile_lab2.SecondTabbedActivity"
+        android:label="@string/menu_second_tabbed_activity"
+        tools:layout="@layout/activity_second_tabbed"
+        />
 </navigation>

@@ -11,4 +11,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_list">List</string>
+    <string name="menu_second_tabbed_activity">Second Tabbed Activity</string>
+    <string name="title_activity_second_tabbed">SecondTabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
