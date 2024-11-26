@@ -1,4 +1,4 @@
-package com.example.smo_uni_mobile_lab2.ui.main
+package com.example.smo_uni_mobile_lab2.ui.secondTabbedActivity
 
 import android.content.Context
 import androidx.fragment.app.Fragment
@@ -8,7 +8,8 @@ import com.example.smo_uni_mobile_lab2.R
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
-    R.string.tab_text_2
+    R.string.tab_text_2,
+    R.string.tab_text_3
 )
 
 /**

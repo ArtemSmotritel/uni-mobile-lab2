@@ -1,4 +1,4 @@
-package com.example.smo_uni_mobile_lab2.ui.main
+package com.example.smo_uni_mobile_lab2.ui.secondTabbedActivity
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

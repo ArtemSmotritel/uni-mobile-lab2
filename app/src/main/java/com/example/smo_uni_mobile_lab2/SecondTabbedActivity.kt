@@ -7,7 +7,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.smo_uni_mobile_lab2.ui.main.SectionsPagerAdapter
+import com.example.smo_uni_mobile_lab2.ui.secondTabbedActivity.SectionsPagerAdapter
 import com.example.smo_uni_mobile_lab2.databinding.ActivitySecondTabbedBinding
 
 class SecondTabbedActivity : AppCompatActivity() {

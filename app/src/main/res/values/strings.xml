@@ -15,4 +15,6 @@
     <string name="title_activity_second_tabbed">SecondTabbedActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab Special</string>
+    <string name="change_activity_button_text">Click Me to change Activity</string>
 </resources>
