@@ -8,6 +8,7 @@ import androidx.lifecycle.map
 class PageViewModel : ViewModel() {
 
     private val _index = MutableLiveData<Int>()
+    val index: LiveData<Int> = _index
     val text: LiveData<String> = _index.map {
         "Hello world from section: $it"
     }

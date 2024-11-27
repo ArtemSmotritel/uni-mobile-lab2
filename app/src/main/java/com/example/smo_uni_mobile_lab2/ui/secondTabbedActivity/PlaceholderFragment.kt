@@ -40,11 +40,15 @@ class PlaceholderFragment : Fragment() {
         val root = binding.root
 
         val textView: TextView = binding.sectionLabel
+        val btn = binding.changeActivityButton
+
         pageViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+        pageViewModel.index.observe(viewLifecycleOwner) {
+            btn.visibility = if (it == 3) View.VISIBLE else View.GONE
+        }
 
-        val btn = binding.changeActivityButton
         btn.setOnClickListener {
             val intent = Intent(requireContext(), MainActivity::class.java)
             startActivity(intent)
